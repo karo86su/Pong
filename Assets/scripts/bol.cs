@@ -19,7 +19,7 @@ public class pong : MonoBehaviour
     void Update()
     {
         Xposition = Xposition + 1 * Time.deltaTime;
-        Yposition = Yposition + 0.01f;
+        Yposition = Yposition + 1 * Time.deltaTime; 
         transform.position = new Vector3(Xposition, Yposition, 0);
     }
 }
